@@ -144,7 +144,7 @@ define Package/libvulkan-intel
   SECTION:=libs
   CATEGORY:=Libraries
   SUBMENU:=Video
-  DEPENDS:=libmesa @(i386||i686||x86_64)
+  DEPENDS:=libmesa @(i386||i686||x86_64) +libzstd
   TITLE:=Intel Vulkan driver
   URL:=https://www.mesa3d.org
 endef
